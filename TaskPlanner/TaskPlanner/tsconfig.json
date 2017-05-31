@@ -1,0 +1,31 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "sourceMap": false,
+    "jsx": "react",
+    "module": "amd",
+    "target": "es5",
+    "moduleResolution": "classic",
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "noImplicitUseStrict": true,
+    "paths": {
+      "moment": [ "node_modules/moment/moment.d.ts" ],
+      "OfficeFabric/*": [ "node_modules/office-ui-fabric-react/lib-amd/*" ]
+    },
+    "removeComments": false,
+    "skipLibCheck": true,
+    "stripInternal": true,
+    "suppressExcessPropertyErrors": true,
+    "traceResolution": false,
+    "lib": [ "es5", "es6", "dom", "es2015.promise" ]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "./**/*.ts",
+    "./**/*.tsx"
+  ]
+}
